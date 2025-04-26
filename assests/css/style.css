@@ -1,0 +1,219 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --font3: "Baloo Da 2", sans-serif;
+    --asikur-yellow: #f8bc17;
+    --button-yellow: #fc0;
+    --black: #000;
+    --social-icon-ash: #f4f3f3;
+    --hand-emoji-yellow: #FFD233;
+}
+
+/*  ========== Common Css End ==================== */
+
+
+/*  ========== Navbar Start ==================== */
+
+#navigation a {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 28px;
+    color: #353535;
+    text-decoration: none;
+}
+
+#navigation a span {
+    color: var(--asikur-yellow);
+}
+
+#navigation .navbar-nav li a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    /* background: #f8bc17; */
+    padding: 10px 25px;
+    position: relative;
+}
+
+
+#navigation .navbar-nav li a::before {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #353535;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+
+#navigation .navbar-nav li a:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+
+#offcanvasRight a {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 28px;
+    color: #353535;
+    text-decoration: none;
+}
+
+#offcanvasRight a span {
+    color: var(--asikur-yellow);
+}
+
+/*  ========== Navbar End ==================== */
+
+/*  ========== Banner Section Start ==================== */
+
+#banner .container .row {
+    /* background: #f8bc17; */
+    display: flex;
+}
+
+#banner .container {
+    /* background: rgb(240, 138, 138); */
+}
+
+#banner .row .banner_img {
+    padding: 0;
+    /* background: #353535; */
+}
+
+#banner .row .banner_img img {
+    width: 100%;
+}
+
+#banner .row .banner_contains {
+    padding: 0;
+    /* background: rgb(146, 255, 146); */
+}
+
+#banner .row .banner_contains h4 {
+    /* background: #ffe59f; */
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    /* color: #353535; */
+    margin-bottom: 15px;
+
+}
+
+
+#banner .row .banner_contains span {
+    margin-left: 20px;
+    color: var(--hand-emoji-yellow);
+}
+
+#banner .row .banner_contains h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    /* color: #353535; */
+    margin-bottom: 25px;
+}
+
+#banner .row .banner_contains p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    margin-bottom: 50px;
+}
+
+#banner .banner_contains .banner_button a:first-child {
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+    background: var(--button-yellow);
+    display: inline-flex;
+    align-items: center;
+    padding: 16px 45px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#banner .banner_contains .banner_button a:first-child:hover {
+    background: transparent;
+    outline: 1px solid var(--button-yellow);
+    color: var(--button-yellow);
+}
+
+
+#banner .banner_contains .banner_button a:first-child span {
+    margin-left: 15px;
+}
+
+
+#banner .banner_contains .banner_button a:last-child {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+    text-decoration: none;
+    outline: 1px solid var(--black);
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 17px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+#banner .banner_contains .banner_button a:last-child span {
+    margin-left: 15px;
+}
+
+#banner .banner_contains .banner_button a:last-child:hover {
+    background: transparent;
+    outline: 1px solid var(--button-yellow);
+    color: var(--button-yellow);
+}
+
+#banner .banner_contains .social_links {
+    /* background: #000; */
+    display: inline-flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#banner .banner_contains .social_links h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+    margin: 0 16px 0;
+}
+
+#banner .banner_contains .social_links a {
+    /* background: #ffe59f; */
+    /* display: flex; */
+    background: var(--social-icon-ash);
+    line-height: 0;
+    padding: 10px;
+    border-radius: 100%;
+    color: var(--black);
+    margin-left: 16px;
+    transition: 0.3s;
+}
+
+#banner .banner_contains .social_links a:hover {
+    transform: rotate(45deg);
+}
+
+
+
+/*  ========== Banner Section End ==================== */
