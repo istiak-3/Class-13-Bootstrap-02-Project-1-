@@ -74,9 +74,9 @@
 
 /*  ========== Banner Section Start ==================== */
 
-#banner .container .row {
+#banner {
     /* background: #f8bc17; */
-    display: flex;
+    margin: 50px 0 100px;
 }
 
 #banner .container {
@@ -97,7 +97,7 @@
     /* background: rgb(146, 255, 146); */
 }
 
-#banner .row .banner_contains h4 {
+#banner .banner_contains .first_line h4 {
     /* background: #ffe59f; */
     font-family: var(--font-family);
     font-weight: 400;
@@ -108,7 +108,7 @@
 }
 
 
-#banner .row .banner_contains span {
+#banner .banner_contains .first_line span {
     margin-left: 20px;
     color: var(--hand-emoji-yellow);
 }
