@@ -50,9 +50,10 @@
     /*  ========== Banner Section Start ==================== */
 
     #banner {
-        margin-top: 25px;
+        /* background: #f8bc17; */
+        margin: 25px 0;
     }
-
+    
     #banner .row .banner_contains {
         padding: 35px 0px 35px 10px;
     }
@@ -91,6 +92,3 @@
     
 
     /*  ========== Banner Section End ==================== */
-
-
-}
